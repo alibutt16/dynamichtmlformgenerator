@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+    <script src="main.js"></script>
+  </head>
+
+  <body class="body">
+    <h1>
+      <img
+        src="./clipboard.png"
+        alt="some form image here"
+        height="50vh"
+        width="50vh"
+      />
+      Dynamically Generated Form
+    </h1>
+    <h3 class="infometa">
+      Ghulam Ali Butt <br />
+      Sp18-Bse-135<br />
+      Section B
+    </h3>
+
+    <hr class="hrr" />
+    <br />
+
+    <form id="fform" method="POST" >
+      <label for="fieldlabel">Field Label:</label><br />
+      <input type="text" id="flabel" /><br />
+
+      <label for="fieldname">Field name:</label><br />
+      <input type="text" id="fname" /><br />
+
+      <label for="fieldid">Field ID:</label><br />
+      <input type="text" id="fid" /><br />
+
+      <label for="cssclass">CSS Class:</label><br />
+      <input type="text" id="cssclass" /><br />
+      <br />
+
+      <label for="datatype">Choose a Type:</label>
+
+      <select id="ftype">
+        <option value="text">text</option>
+        <option value="password">password</option>
+        <option value="number">number</option>
+        <option value="radio">radio</option>
+        <option value="checkbox">checkbox</option>
+      </select>
+      <br />
+
+      <button id="sub" type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br />
+    <br />
+
+    <div id="container"></div>
+  </body>
+  <footer>
+    <hr class="hrr" />
+  </footer>
+</html>

@@ -1,0 +1,45 @@
+.body {
+  font-family: "calibri", serif;
+  align-content: center;
+  background-color: whitesmoke;
+}
+body h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+.hrr {
+  height: 3px;
+  background-color: blue;
+}
+h1 img {
+  float: left;
+  margin: 0 5px 0 0;
+}
+
+.infometa {
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+
+.body form {
+  font-style: oblique;
+  font-family: "calibri", serif;
+}
+
+.brown {
+  border: 1px solid brown;
+  border-radius: 15px;
+}
+.red {
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: honeydew;
+}
+.blue {
+  border: 1px solid cadetblue;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: #1e2833;
+}
+.green {
+  border: 1px solid green;
+  border-radius: 13px;
+}
